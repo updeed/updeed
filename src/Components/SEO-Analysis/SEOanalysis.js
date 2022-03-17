@@ -70,20 +70,24 @@ const SEOanalysis = () => {
           </Box>
           <Item id="non-shadow">
             <form onSubmit={handleSubmit(onSubmit)}>
-              <Grid container spacing={2}>
+              <Grid container spacing={0} sx={{ marginBottom: "10px" }}>
                 <Grid item xs={6}>
                   <Item id="non-shadow">
                     <TextField
                       sx={{ width: "100%" }}
                       {...register("name", { required: true })}
                       placeholder="Your Name"
+                      type="text"
                     />{" "}
-                    <Typography
-                      variant="span"
-                      sx={{ textAlign: "left", color: "red" }}
+                    <p
+                      style={{
+                        textAlign: "left",
+                        color: "red",
+                        margin: "0px 0px",
+                      }}
                     >
-                      {errors.name?.type === "required" && " name is required"}
-                    </Typography>{" "}
+                      {errors.name?.type === "required" && " *name is required"}
+                    </p>{" "}
                   </Item>
                 </Grid>
                 <Grid item xs={6}>
@@ -95,16 +99,19 @@ const SEOanalysis = () => {
                       type="email"
                       placeholder="Your email"
                     />
-                    <Typography
-                      variant="span"
-                      sx={{ textAlign: "left", color: "red" }}
+                    <p
+                      style={{
+                        textAlign: "left",
+                        color: "red",
+                        margin: "0px 0px",
+                      }}
                     >
-                      {errors.email && "email address is required"}
-                    </Typography>
+                      {errors.email && "*email address is required"}
+                    </p>
                   </Item>
                 </Grid>
               </Grid>
-              <Grid container spacing={2}>
+              <Grid container spacing={0} sx={{ marginBottom: "10px" }}>
                 <Grid item xs={6}>
                   <Item id="non-shadow">
                     <TextField
@@ -113,14 +120,18 @@ const SEOanalysis = () => {
                       }}
                       {...register("phone", { required: true })}
                       placeholder="Your / company Phone number"
+                      type="number"
                     />
-                    <Typography
-                      variant="span"
-                      sx={{ textAlign: "left", color: "red" }}
+                    <p
+                      style={{
+                        textAlign: "left",
+                        color: "red",
+                        margin: "0px 0px",
+                      }}
                     >
                       {errors.phone?.type === "required" &&
-                        "phone number is required"}
-                    </Typography>
+                        "*phone number is required"}
+                    </p>
                   </Item>
                 </Grid>
                 <Grid item xs={6}>
@@ -130,13 +141,17 @@ const SEOanalysis = () => {
                       sx={{ width: "100%" }}
                       {...register("website", { required: true })}
                       placeholder="Website URL"
+                      type="text"
                     />
-                    <Typography
-                      variant="span"
-                      sx={{ textAlign: "left", color: "red" }}
+                    <p
+                      style={{
+                        textAlign: "left",
+                        color: "red",
+                        margin: "0px 0px",
+                      }}
                     >
-                      {errors.website && "website address is required"}
-                    </Typography>
+                      {errors.website && "*website address is required"}
+                    </p>
                   </Item>
                 </Grid>
               </Grid>
@@ -146,13 +161,11 @@ const SEOanalysis = () => {
                 cols="65"
                 rows="10"
                 placeholder="Write Message"
+                type="text"
               ></textarea>
-              <Typography
-                variant="span"
-                sx={{ textAlign: "left", color: "red" }}
-              >
-                {errors.message && "message is required"}
-              </Typography>
+              <p style={{ textAlign: "left", color: "red", margin: "0px 0px" }}>
+                {errors.message && "*message is required"}
+              </p>
               <div>
                 <input type="submit" value="Send Message" />
               </div>
