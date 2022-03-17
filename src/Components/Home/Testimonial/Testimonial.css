@@ -1,0 +1,86 @@
+.testimonial{
+    background-color: #F9FAFB;
+    padding: 70px 0;
+}
+.testimonialClient{
+    background-image: url('https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2021/01/home10_quote.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.testimonialClient h6{
+    font-size: 14px;
+    margin: 0;
+    color: #696687;
+}
+.testimonialClient h1{
+    margin: 0;
+    padding-bottom: 10px;
+    color: #3b3663;
+    font-size: 30px;
+}
+.testimonialClient p{
+    margin: 0;
+    color: #696687;
+    font-size: 18px;
+    max-width: 350px;
+}
+.testimonialSlider{
+    display: flex;
+    padding: 50px 30px 70px;
+    margin-bottom: 40px;
+    max-width: 600px;
+    border-radius: 20px;
+    background-color: #ffff;
+    border-bottom-left-radius: 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 100% 90%, 7% 90%, 0 100%);
+}
+.testimonialSlider p{
+    font-size: 20px;
+    color: #696687;
+}
+.quoteImg{
+    width: 52px;
+    padding-right: 30px;
+}
+.customers{
+    display: flex;
+    align-items: center;
+}
+.customerImg{
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.customers h5{
+    font-size: 18px;
+    margin: 0;
+    color: #3b3663;
+}
+.customers p{
+    margin: 0;
+    color: #696687;
+    font-size: 15px;
+}
+
+/* slider pagination customize  */
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap,4px);
+    font-size: 35px;
+    padding: 1px;
+    background: #6254e7 !important;
+    border-radius: 50%;
+}
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: var(--swiper-pagination-color,var(--swiper-theme-color));
+    /* padding: 6px !important; */
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+    border-radius: 12px !important;
+    background: #6254e7 !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    left: -37% !important;
+}
