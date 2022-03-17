@@ -136,7 +136,6 @@ const WhyChooseUs = () => {
             <Item
               sx={{
                 boxShadow: "0px 0px 56px 6px #c9c9c9",
-
                 borderRadius: 2,
                 textAlign: "left",
                 padding: "35px",
