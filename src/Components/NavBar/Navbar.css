@@ -10,8 +10,9 @@
     text-transform: capitalize !important;
 }
 .menuBtn{
-    font-size: 12px !important;
-    text-transform: capitalize !important;
+    letter-spacing: 1px !important;
+    padding: 12px 10px !important;
+    font-size: 10px !important;
 }
 .menuBtn:hover{
     background-color: #fe5b61 !important;

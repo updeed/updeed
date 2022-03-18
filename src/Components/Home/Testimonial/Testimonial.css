@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+
 .testimonial{
     background-color: #F9FAFB;
-    padding: 70px 0;
+    padding: 70px 20px;
 }
 .testimonialClient{
     background-image: url('https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2021/01/home10_quote.png');
@@ -21,26 +24,37 @@
 .testimonialClient p{
     margin: 0;
     color: #696687;
+    color: #726f8e;
     font-size: 18px;
-    max-width: 350px;
+    max-width: 390px;
+    line-height: 28px;
+    font-family: 'Rubik', sans-serif;
 }
 .testimonialSlider{
     display: flex;
-    padding: 50px 30px 70px;
+    padding: 50px 50px 70px;
+    margin: 0 auto;
     margin-bottom: 40px;
-    max-width: 600px;
+    max-width: 615px;
     border-radius: 20px;
     background-color: #ffff;
     border-bottom-left-radius: 0;
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 100% 90%, 7% 90%, 0 100%);
 }
 .testimonialSlider p{
-    font-size: 20px;
     color: #696687;
+    color: #726f8e;
+    font-family: "Rubik", Sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: 400;
 }
 .quoteImg{
     width: 52px;
-    padding-right: 30px;
+    padding-left: 25px;
+    transform: rotate(180deg);
 }
 .customers{
     display: flex;

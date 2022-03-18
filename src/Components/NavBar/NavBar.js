@@ -166,7 +166,7 @@ const NavBar = () => {
 
                         </Box>
                         <Box sx={{ ml: 4 }}>
-                            <Button sx={{ my: 2, color: 'white', background: '#fe5c61', px: 2, py: 1 }} size="small" className='menuBtn' >Get In Touch</Button>
+                            <Button sx={{ my: 2, color: 'white', background: '#fe5c61' }} size="small" className='menuBtn' >Get In Touch</Button>
                         </Box>
 
                         {/* search bar  */}
@@ -194,7 +194,7 @@ const NavBar = () => {
                             >
                                 <Paper
                                     component="form"
-                                    sx={{ px: 1, display: 'flex', alignItems: 'center', width: 250 }}
+                                    sx={{ px: 1, display: 'flex', alignItems: 'center' }}
                                 >
                                     <InputBase
                                         sx={{ flex: 1 }}

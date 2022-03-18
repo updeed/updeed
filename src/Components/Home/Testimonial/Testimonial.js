@@ -14,11 +14,11 @@ const Testimonial = () => {
         <div className='testimonial'>
             <Box sx={{ width: '100%' }}>
                 <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-                    <Grid className='testimonialClient' item xs={12} md={5} sx={{ display: 'flex', justifyContent: 'center' }}>
+                    <Grid className='testimonialClient' item xs={12} md={5} sx={{ display: 'flex', justifyContent: 'center', pb: 12 }}>
                         <div>
                             <h6>TESTIMONIALS</h6>
                             <h1>What Our Clients Say</h1>
-                            <p >Ewebot stays ahead of the curve with digital marketing trend</p>
+                            <p >Ewebot stays ahead of the curve with digital marketing trends.</p>
                         </div>
                     </Grid>
                     <Grid item xs={12} md={7}>
