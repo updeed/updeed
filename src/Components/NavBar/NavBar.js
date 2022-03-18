@@ -158,7 +158,8 @@ const NavBar = () => {
 
 
                         </Box>
-                        <Box sx={{ ml: 4 }}>
+
+                        <Box sx={{ ml: 4, display: { xs: 'none', md: 'block' } }}>
                             <Button sx={{ my: 2, color: 'white', background: '#fe5c61' }} size="small" className='menuBtn' >Get In Touch</Button>
                         </Box>
 
@@ -170,6 +171,7 @@ const NavBar = () => {
                                 aria-haspopup="true"
                                 aria-expanded={open ? 'true' : undefined}
                                 onClick={handleClick}
+                                sx={{ display: { xs: 'none', md: 'block' } }}
                             >
                                 <IconButton type="submit" sx={{ ml: 2, fontSize: '20px' }} aria-label="search">
                                     <SearchIcon />
@@ -205,11 +207,12 @@ const NavBar = () => {
                         <div>
                             {['right'].map((anchor) => (
                                 <React.Fragment key={anchor}>
-                                    <Button onClick={toggleDrawer(anchor, true)}>
+                                    <Button sx={{ display: { xs: 'none', md: 'block' } }}
+                                        onClick={toggleDrawer(anchor, true)}>
                                         <IconButton sx={{ display: { xs: 'none', lg: 'block' } }} aria-label="menu">
                                             <MenuIcon />
                                         </IconButton>
-                                        <IconButton sx={{ display: { xs: 'block', lg: 'none' }, fontSize: '18px' }} aria-label="menu">
+                                        <IconButton sx={{ display: { xs: 'none', md: 'block', lg: 'none' }, fontSize: '18px' }} aria-label="menu">
                                             <span><i class="fa-solid fa-chevron-left"></i></span>
                                         </IconButton>
                                     </Button>
@@ -223,6 +226,7 @@ const NavBar = () => {
                                 </React.Fragment>
                             ))}
                         </div>
+
                     </Toolbar>
                 </Container>
             </AppBar>
