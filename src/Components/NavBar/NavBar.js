@@ -102,12 +102,11 @@ const NavBar = () => {
                             variant="h6"
                             noWrap
                             component="div"
-                            sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
                         >
                             <img className='navbarLogo' src='https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/08/logo_retinablack.png' />
                         </Typography>
 
-                        <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, color: '#757575' }}>
+                        <Box sx={{ flexGrow: 1, display: { xs: 'flex', lg: 'none' }, color: '#757575', justifyContent: 'end' }}>
                             <IconButton
                                 size="large"
                                 aria-label="account of current user"
@@ -133,25 +132,18 @@ const NavBar = () => {
                                 open={Boolean(anchorElNav)}
                                 onClose={handleCloseNavMenu}
                                 sx={{
-                                    display: { xs: 'block', md: 'none' },
+                                    display: { xs: 'block', lg: 'none' },
                                 }}
+                                className="navbarTogglerMenu"
                             >
                                 {pages.map((page) => (
                                     <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                        <Typography textAlign="center">{page}</Typography>
+                                        <Typography sx={{ width: '100vw' }} textAlign="left">{page}</Typography>
                                     </MenuItem>
                                 ))}
                             </Menu>
                         </Box>
-                        <Typography
-                            variant="h6"
-                            noWrap
-                            component="div"
-                            sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
-                        >
-                            <img className='navbarLogo' src='https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/08/logo_retinablack.png' />
-                        </Typography>
-                        <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'end' }}>
+                        <Box sx={{ flexGrow: 1, display: { xs: 'none', lg: 'flex' }, justifyContent: 'end' }}>
                             {pages.map((page) => (
                                 <Button
                                     className='navbarMenu'
@@ -162,6 +154,7 @@ const NavBar = () => {
                                     {page}
                                 </Button>
                             ))}
+
 
 
                         </Box>
@@ -213,8 +206,11 @@ const NavBar = () => {
                             {['right'].map((anchor) => (
                                 <React.Fragment key={anchor}>
                                     <Button onClick={toggleDrawer(anchor, true)}>
-                                        <IconButton sx={{}} aria-label="menu">
+                                        <IconButton sx={{ display: { xs: 'none', lg: 'block' } }} aria-label="menu">
                                             <MenuIcon />
+                                        </IconButton>
+                                        <IconButton sx={{ display: { xs: 'block', lg: 'none' }, fontSize: '18px' }} aria-label="menu">
+                                            <span><i class="fa-solid fa-chevron-left"></i></span>
                                         </IconButton>
                                     </Button>
                                     <Drawer
