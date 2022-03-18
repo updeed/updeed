@@ -10,9 +10,9 @@ function App() {
     <div>
       <WhyChooseUs></WhyChooseUs>
       <div style={{ marginTop: "7rem" }}></div>
-      <SEOanalysis></SEOanalysis>
-      <div style={{ marginTop: "7rem" }}></div>
       <WhatWeOffer></WhatWeOffer>
+      <div style={{ marginTop: "7rem" }}></div>
+      <SEOanalysis></SEOanalysis>
     </div>
   );
 }

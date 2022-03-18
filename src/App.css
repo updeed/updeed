@@ -68,3 +68,9 @@ textarea {
   color: white;
   font-weight: bold;
 }
+
+#we-Offer-item:hover {
+  background-color: #3b3663;
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
