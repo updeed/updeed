@@ -53,7 +53,6 @@ const NavBar = () => {
         bottom: false,
         right: false,
     });
-
     const toggleDrawer = (anchor, open) => (event) => {
         if (event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
             return;
@@ -61,10 +60,12 @@ const NavBar = () => {
 
         setState({ ...state, [anchor]: open });
     };
-
     const list = (anchor) => (
         <Box
-            sx={{ width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 350 }}
+            sx={{
+                width: anchor === 'top' || anchor === 'bottom' ? 'auto' : 350,
+
+            }}
             role="presentation"
             onClick={toggleDrawer(anchor, false)}
             onKeyDown={toggleDrawer(anchor, false)}
@@ -93,18 +94,34 @@ const NavBar = () => {
         </Box>
     );
 
+    // navbar scroll background change
+    window.onscroll = function () { scrollFunction() };
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("navbar").style.background = '#f3f3f3';
+        } else {
+            document.getElementById("navbar").style.background = 'none';
+        }
+    }
+
     return (
         <div>
-            <AppBar className='navbarContainer' position="static">
+            <AppBar
+                sx={{
+                    padding: '20px',
+                    boxShadow: 'none',
+                    background: 'none'
+                }}
+                position="fixed"
+                id='navbar'
+            >
                 <Container maxWidth="xl">
                     <Toolbar disableGutters>
-                        <Typography
-                            variant="h6"
-                            noWrap
-                            component="div"
-                        >
-                            <img className='navbarLogo' src='https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/08/logo_retinablack.png' />
-                        </Typography>
+                        <Box>
+                            <img
+                                className='navbarLogo'
+                                src='https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/08/logo_retinablack.png' />
+                        </Box>
 
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', lg: 'none' }, color: '#757575', justifyContent: 'end' }}>
                             <IconButton
@@ -146,10 +163,14 @@ const NavBar = () => {
                         <Box sx={{ flexGrow: 1, display: { xs: 'none', lg: 'flex' }, justifyContent: 'end' }}>
                             {pages.map((page) => (
                                 <Button
-                                    className='navbarMenu'
                                     key={page}
                                     onClick={handleCloseNavMenu}
-                                    sx={{ my: 2, color: 'black', fontSize: '16px' }}
+                                    sx={{
+                                        my: 2,
+                                        color: 'black',
+                                        fontSize: '16px',
+                                        textTransform: 'capitalize'
+                                    }}
                                 >
                                     {page}
                                 </Button>
@@ -160,7 +181,22 @@ const NavBar = () => {
                         </Box>
 
                         <Box sx={{ ml: 4, display: { xs: 'none', md: 'block' } }}>
-                            <Button sx={{ my: 2, color: 'white', background: '#fe5c61' }} size="small" className='menuBtn' >Get In Touch</Button>
+                            <Button sx={{
+                                my: 2,
+                                color: 'white',
+                                backgroundImage: 'linear-gradient(90deg, #FF4969 -20%, #FC9D44  115%)',
+                                padding: '12px 15px',
+                                fontSize: '10px',
+                                letterSpacing: '1px',
+
+                                '&:hover': {
+                                    backgroundImage: ' linear-gradient(90deg, #FC9D44 -20%, #FF4969 115%)',
+                                }
+                            }}
+                                size="small"
+                            >
+                                Get In Touch
+                            </Button>
                         </Box>
 
                         {/* search bar  */}
@@ -178,7 +214,9 @@ const NavBar = () => {
                                 </IconButton>
                             </Button>
                             <Menu
-                                sx={{ mt: 1 }}
+                                sx={{
+                                    mt: 1,
+                                }}
                                 id="basic-menu"
                                 anchorEl={anchorEl}
                                 open={open}
@@ -189,7 +227,11 @@ const NavBar = () => {
                             >
                                 <Paper
                                     component="form"
-                                    sx={{ px: 1, display: 'flex', alignItems: 'center' }}
+                                    sx={{
+                                        px: 1,
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                    }}
                                 >
                                     <InputBase
                                         sx={{ flex: 1 }}

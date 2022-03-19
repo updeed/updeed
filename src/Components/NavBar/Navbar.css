@@ -1,29 +1,6 @@
-.navbarContainer{
-    background-color: #ffffff !important;
-    box-shadow: none !important;
-    padding: 20px;
-}
 .navbarLogo {
     width: 150px;
 }
-.navbarMenu{
-    text-transform: capitalize !important;
-}
-.menuBtn{
-    letter-spacing: 1px !important;
-    padding: 12px 10px !important;
-    font-size: 10px !important;
-}
-.menuBtn:hover{
-    background-color: #fe5b61 !important;
-}
-.searchBar{
-    margin-left: 15px;
-    font-size: 20px;
-    font-weight: 100;
-    color: black;
-}
-
 .navbarTogglerMenu ul{
     padding: 30px 20px !important;
     padding-top: 40px !important;
