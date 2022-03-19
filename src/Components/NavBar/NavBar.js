@@ -110,7 +110,7 @@ const NavBar = () => {
                 sx={{
                     padding: '20px',
                     boxShadow: 'none',
-                    background: 'none'
+                    background: 'none',
                 }}
                 position="fixed"
                 id='navbar'
@@ -167,9 +167,11 @@ const NavBar = () => {
                                     onClick={handleCloseNavMenu}
                                     sx={{
                                         my: 2,
-                                        color: 'black',
+                                        color: '#3B3663',
                                         fontSize: '16px',
-                                        textTransform: 'capitalize'
+                                        textTransform: 'capitalize',
+                                        fontFamily: 'Rubik',
+                                        fontWeight: '400'
                                     }}
                                 >
                                     {page}
