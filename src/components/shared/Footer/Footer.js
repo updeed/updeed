@@ -50,14 +50,14 @@ const Footer = () => {
                   src={contactIcon}
                   alt=""
                 />
-                <div>
+                <Box>
                   <Typography variant="body1" color={"whitesmoke"}>
                     +880 1555 000 000
                   </Typography>
                   <Typography variant="body1" color={"whitesmoke"}>
                     info@updeed.com
                   </Typography>
-                </div>
+                </Box>
               </Grid>
               <Grid
                 item
