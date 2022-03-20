@@ -14,7 +14,11 @@ const Testimonial = () => {
         <Box
             sx={{
                 backgroundColor: '#F9FAFB',
-                padding: '70px 90px',
+                padding: {
+                    lg: '70px 90px',
+                    md: '50px 60px',
+                    xs: '40px'
+                },
 
             }}
         >
@@ -90,9 +94,15 @@ const Testimonial = () => {
                                 <Box
                                     sx={{
                                         display: 'flex',
-                                        padding: '50px 50px 70px',
+                                        padding: {
+                                            md: '50px 50px 70px',
+                                            xs: '30px 20px 70px'
+                                        },
+                                        mb: {
+                                            md: '40px',
+                                            xs: '10px'
+                                        },
                                         m: '0 auto',
-                                        mb: '40px',
                                         maxWidth: '615px',
                                         borderRadius: '20px',
                                         background: '#ffff',
@@ -103,9 +113,18 @@ const Testimonial = () => {
                                     <Box>
                                         <Avatar
                                             sx={{
-                                                width: '52px',
-                                                height: '52px',
-                                                pl: '25px',
+                                                width: {
+                                                    sm: '52px',
+                                                    xs: '40px'
+                                                },
+                                                height: {
+                                                    sm: '52px',
+                                                    xs: '40px'
+                                                },
+                                                pl: {
+                                                    sm: '25px',
+                                                    xs: '12px'
+                                                },
                                                 transform: 'rotate(180deg)'
 
                                             }}
@@ -120,7 +139,8 @@ const Testimonial = () => {
                                                 fontSize: '20px',
                                                 lineHeight: '30px',
                                                 letterSpacing: 0,
-                                                fontWeight: '400'
+                                                fontWeight: '400',
+                                                textAlign: 'justify',
                                             }}
                                         >
                                             Design is a way of life, a point of view. It involves the whole complex of visual commun ications: talen.t, creative ability manual skill.
@@ -134,8 +154,14 @@ const Testimonial = () => {
                                         >
                                             <Avatar
                                                 sx={{
-                                                    width: '74px',
-                                                    height: '74px',
+                                                    width: {
+                                                        sm: '74px',
+                                                        xs: '50px'
+                                                    },
+                                                    height: {
+                                                        sm: '74px',
+                                                        xs: '50px'
+                                                    },
                                                     borderRadius: '50%',
                                                     mr: '10px',
                                                 }}
@@ -174,23 +200,37 @@ const Testimonial = () => {
                                 <Box
                                     sx={{
                                         display: 'flex',
-                                        padding: '50px 50px 70px',
+                                        padding: {
+                                            md: '50px 50px 70px',
+                                            xs: '30px 20px 70px'
+                                        },
+                                        mb: {
+                                            md: '40px',
+                                            xs: '10px'
+                                        },
                                         m: '0 auto',
-                                        mb: '40px',
                                         maxWidth: '615px',
                                         borderRadius: '20px',
                                         background: '#ffff',
                                         borderBottomLeftRadius: 0,
                                         clipPath: 'polygon(0% 0%, 100% 0%, 100% 80%, 100% 90%, 7% 90%, 0 100%)',
-
                                     }}
                                     className='testimonialSlider'>
                                     <Box>
                                         <Avatar
                                             sx={{
-                                                width: '52px',
-                                                height: '52px',
-                                                pl: '25px',
+                                                width: {
+                                                    sm: '52px',
+                                                    xs: '40px'
+                                                },
+                                                height: {
+                                                    sm: '52px',
+                                                    xs: '40px'
+                                                },
+                                                pl: {
+                                                    sm: '25px',
+                                                    xs: '12px'
+                                                },
                                                 transform: 'rotate(180deg)'
 
                                             }}
@@ -205,7 +245,8 @@ const Testimonial = () => {
                                                 fontSize: '20px',
                                                 lineHeight: '30px',
                                                 letterSpacing: 0,
-                                                fontWeight: '400'
+                                                fontWeight: '400',
+                                                textAlign: 'justify',
                                             }}
                                         >
                                             Design is a way of life, a point of view. It involves the whole complex of visual commun ications: talen.t, creative ability manual skill.
@@ -219,8 +260,14 @@ const Testimonial = () => {
                                         >
                                             <Avatar
                                                 sx={{
-                                                    width: '74px',
-                                                    height: '74px',
+                                                    width: {
+                                                        sm: '74px',
+                                                        xs: '50px'
+                                                    },
+                                                    height: {
+                                                        sm: '74px',
+                                                        xs: '50px'
+                                                    },
                                                     borderRadius: '50%',
                                                     mr: '10px',
                                                 }}
@@ -259,23 +306,37 @@ const Testimonial = () => {
                                 <Box
                                     sx={{
                                         display: 'flex',
-                                        padding: '50px 50px 70px',
+                                        padding: {
+                                            md: '50px 50px 70px',
+                                            xs: '30px 20px 70px'
+                                        },
+                                        mb: {
+                                            md: '40px',
+                                            xs: '10px'
+                                        },
                                         m: '0 auto',
-                                        mb: '40px',
                                         maxWidth: '615px',
                                         borderRadius: '20px',
                                         background: '#ffff',
                                         borderBottomLeftRadius: 0,
                                         clipPath: 'polygon(0% 0%, 100% 0%, 100% 80%, 100% 90%, 7% 90%, 0 100%)',
-
                                     }}
                                     className='testimonialSlider'>
                                     <Box>
                                         <Avatar
                                             sx={{
-                                                width: '52px',
-                                                height: '52px',
-                                                pl: '25px',
+                                                width: {
+                                                    sm: '52px',
+                                                    xs: '40px'
+                                                },
+                                                height: {
+                                                    sm: '52px',
+                                                    xs: '40px'
+                                                },
+                                                pl: {
+                                                    sm: '25px',
+                                                    xs: '12px'
+                                                },
                                                 transform: 'rotate(180deg)'
 
                                             }}
@@ -290,7 +351,8 @@ const Testimonial = () => {
                                                 fontSize: '20px',
                                                 lineHeight: '30px',
                                                 letterSpacing: 0,
-                                                fontWeight: '400'
+                                                fontWeight: '400',
+                                                textAlign: 'justify',
                                             }}
                                         >
                                             Design is a way of life, a point of view. It involves the whole complex of visual commun ications: talen.t, creative ability manual skill.
@@ -304,8 +366,14 @@ const Testimonial = () => {
                                         >
                                             <Avatar
                                                 sx={{
-                                                    width: '74px',
-                                                    height: '74px',
+                                                    width: {
+                                                        sm: '74px',
+                                                        xs: '50px'
+                                                    },
+                                                    height: {
+                                                        sm: '74px',
+                                                        xs: '50px'
+                                                    },
                                                     borderRadius: '50%',
                                                     mr: '10px',
                                                 }}
