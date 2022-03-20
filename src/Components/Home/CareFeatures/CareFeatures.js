@@ -9,7 +9,11 @@ const CareFeatures = () => {
         <div>
             <Box
                 sx={{
-                    px: '164px',
+                    px: {
+                        md: '164px',
+                        sm: '90px',
+                        xs: '50px'
+                    },
                     pt: 5, pb: 8,
                     backgroundImage: 'url(https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2020/03/points_bg.png)',
                     backgroundRepeat: 'no-repeat',
@@ -57,7 +61,7 @@ const CareFeatures = () => {
                     </Typography>
                 </Box>
 
-                <Grid container spacing={2} sx={{ mt: 3 }}>
+                <Grid container spacing={3} sx={{ mt: 3 }}>
                     <Grid item xs={12} sm={6} lg={3}>
                         <Card
                             sx={{

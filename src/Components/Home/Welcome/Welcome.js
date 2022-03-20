@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '@mui/material/Button';
 import { Box } from '@mui/system';
 import Typewriter from 'typewriter-effect';
-import { Typography } from '@mui/material';
+import { Avatar, Typography } from '@mui/material';
 import ReactPlayer from "react-player";
 
 import Modal from '@mui/material/Modal';
@@ -34,7 +34,10 @@ const Welcome = () => {
                 display: 'flex',
                 alignItems: 'center',
                 height: '100vh',
-                backgroundImage: 'url(https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2020/03/your_success.jpg)',
+                backgroundImage: {
+                    xs: '',
+                    md: 'url(https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2020/03/your_success.jpg)'
+                },
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'right',
                 position: 'relative'
@@ -43,7 +46,11 @@ const Welcome = () => {
             <Box
                 sx={{
                     color: '#3b3663',
-                    mx: '164px'
+                    mx: {
+                        md: '164px',
+                        sm: '90px',
+                        xs: '50px'
+                    }
                 }}
             >
 
@@ -61,6 +68,11 @@ const Welcome = () => {
                     sx={{
                         fontWeight: "800",
                         fontFamily: "Nunito",
+                        fontSize: {
+                            xs: '30px',
+                            sm: '40px',
+                            md: '60px'
+                        }
                     }}
                     variant="h2"
                 >
@@ -70,6 +82,11 @@ const Welcome = () => {
                     sx={{
                         fontWeight: "800",
                         fontFamily: "Nunito",
+                        fontSize: {
+                            xs: '30px',
+                            sm: '40px',
+                            md: '60px'
+                        }
                     }}
                     variant="h2">
                     <Typewriter
@@ -115,59 +132,64 @@ const Welcome = () => {
                     >
                         Contact Today
                     </Button>
-                    <Button
-                        onClick={handleOpen}
-                        sx={{
-                            width: '50px',
-                            height: '50px',
-                            borderRadius: '50%',
-                            minWidth: '50px',
-                            backgroundImage: 'linear-gradient(90deg, #f0ac0e 0%, #f56616 100%)',
-                            color: '#ffff',
-                            mr: 1,
+                    <Box sx={{
+                        display: 'inline-block',
+                        mt: 2
+                    }}>
+                        <Button
+                            onClick={handleOpen}
+                            sx={{
+                                width: '50px',
+                                height: '50px',
+                                borderRadius: '50%',
+                                minWidth: '50px',
+                                backgroundImage: 'linear-gradient(90deg, #f0ac0e 0%, #f56616 100%)',
+                                color: '#ffff',
+                                mr: 1,
 
-                            '&:hover': {
-                                background: '#6254e7',
-                            }
-                        }}
-                    >
-                        <i class="fa-solid fa-play"></i>
-                    </Button>
-                    <Typography
-                        variant='p'
-                        color='#f47514'
-                        sx={{
-                            fontSize: '12px',
-                            fontWeight: '500',
-                            fontFamily: 'Rubik',
-                        }}
-                    >
-                        PLAY VIDEO
-                    </Typography>
-                    <Modal
-                        aria-labelledby="transition-modal-title"
-                        aria-describedby="transition-modal-description"
-                        open={open}
-                        onClose={handleClose}
-                        closeAfterTransition
-                        BackdropComponent={Backdrop}
-                        BackdropProps={{
-                            timeout: 500,
-                        }}
-                    >
-                        <Fade in={open}>
-                            <Box sx={style}>
-                                <ReactPlayer
-                                    width={"100%"}
-                                    height="100%"
-                                    url="https://www.youtube.com/watch?v=Qdw0nDG5j2Q"
-                                    muted={true}
-                                    playing={true}
-                                    controls={true}
-                                />
-                            </Box>
-                        </Fade>
-                    </Modal>
+                                '&:hover': {
+                                    background: '#6254e7',
+                                }
+                            }}
+                        >
+                            <i class="fa-solid fa-play"></i>
+                        </Button>
+                        <Typography
+                            variant='p'
+                            color='#f47514'
+                            sx={{
+                                fontSize: '12px',
+                                fontWeight: '500',
+                                fontFamily: 'Rubik',
+                            }}
+                        >
+                            PLAY VIDEO
+                        </Typography>
+                        <Modal
+                            aria-labelledby="transition-modal-title"
+                            aria-describedby="transition-modal-description"
+                            open={open}
+                            onClose={handleClose}
+                            closeAfterTransition
+                            BackdropComponent={Backdrop}
+                            BackdropProps={{
+                                timeout: 500,
+                            }}
+                        >
+                            <Fade in={open}>
+                                <Box sx={style}>
+                                    <ReactPlayer
+                                        width={"100%"}
+                                        height="100%"
+                                        url="https://www.youtube.com/watch?v=Qdw0nDG5j2Q"
+                                        muted={true}
+                                        playing={true}
+                                        controls={true}
+                                    />
+                                </Box>
+                            </Fade>
+                        </Modal>
+                    </Box>
                 </Box>
             </Box>
 
@@ -185,6 +207,11 @@ const Welcome = () => {
                 sx={{
                     position: 'absolute',
                     bottom: '-6%',
+                    left: {
+                        xs: '-30%',
+                        sm: '-15%',
+                        md: 0
+                    }
                 }}
             >
                 <img src="https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2020/03/element_01.png" alt="" />
