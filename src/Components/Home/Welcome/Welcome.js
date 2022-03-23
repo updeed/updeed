@@ -2,9 +2,8 @@ import React from 'react';
 import Button from '@mui/material/Button';
 import { Box } from '@mui/system';
 import Typewriter from 'typewriter-effect';
-import { Avatar, Typography } from '@mui/material';
+import { Typography } from '@mui/material';
 import ReactPlayer from "react-player";
-
 import Modal from '@mui/material/Modal';
 import Fade from '@mui/material/Fade';
 import Backdrop from '@mui/material/Backdrop';
@@ -34,6 +33,11 @@ const Welcome = () => {
                 display: 'flex',
                 alignItems: 'center',
                 height: '100vh',
+                maxHeight: {
+                    xs: '500px',
+                    md: '700px',
+                    lg: '100vh'
+                },
                 backgroundImage: {
                     xs: '',
                     md: 'url(https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2020/03/your_success.jpg)'

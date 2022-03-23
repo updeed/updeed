@@ -160,7 +160,13 @@ const NavBar = () => {
                                 ))}
                             </Menu>
                         </Box>
-                        <Box sx={{ flexGrow: 1, display: { xs: 'none', lg: 'flex' }, justifyContent: 'end' }}>
+                        <Box
+                            sx={{
+                                flexGrow: 1,
+                                display: { xs: 'none', lg: 'flex' },
+                                justifyContent: 'end',
+                            }}
+                        >
                             {pages.map((page) => (
                                 <Button
                                     key={page}
@@ -171,15 +177,17 @@ const NavBar = () => {
                                         fontSize: '16px',
                                         textTransform: 'capitalize',
                                         fontFamily: 'Rubik',
-                                        fontWeight: '400'
+                                        fontWeight: '400',
+
+                                        '&:hover': {
+                                            fontWeight: '600',
+                                            background: 'none',
+                                        }
                                     }}
                                 >
                                     {page}
                                 </Button>
                             ))}
-
-
-
                         </Box>
 
                         <Box sx={{ ml: 4, display: { xs: 'none', md: 'block' } }}>
@@ -253,10 +261,21 @@ const NavBar = () => {
                                 <React.Fragment key={anchor}>
                                     <Button sx={{ display: { xs: 'none', md: 'block' } }}
                                         onClick={toggleDrawer(anchor, true)}>
-                                        <IconButton sx={{ display: { xs: 'none', lg: 'block' } }} aria-label="menu">
+                                        <IconButton
+                                            sx={{
+                                                display: { xs: 'none', lg: 'block' },
+                                            }}
+                                            aria-label="menu"
+                                        >
                                             <MenuIcon />
                                         </IconButton>
-                                        <IconButton sx={{ display: { xs: 'none', md: 'block', lg: 'none' }, fontSize: '18px' }} aria-label="menu">
+                                        <IconButton
+                                            sx={{
+                                                display: { xs: 'none', md: 'block', lg: 'none' },
+                                                fontSize: '18px'
+                                            }}
+                                            aria-label="menu"
+                                        >
                                             <span><i class="fa-solid fa-chevron-left"></i></span>
                                         </IconButton>
                                     </Button>
