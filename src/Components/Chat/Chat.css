@@ -1,0 +1,11 @@
+#you{
+    text-align: right;
+}
+#you p{
+    background: #57af78;
+    color: white;
+}
+#other p{
+    background: #eff1f2;
+    color: rgb(51 50 50 / 87%);
+}
