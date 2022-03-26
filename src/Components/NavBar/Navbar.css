@@ -1,0 +1,13 @@
+.navbarLogo {
+    width: 150px;
+}
+.navbarTogglerMenu ul{
+    padding: 30px 20px !important;
+    padding-top: 40px !important;
+    margin-top: -20px !important;
+}
+
+/* search bar input customize */
+.css-6hp17o-MuiList-root-MuiMenu-list {
+    padding: 0 !important;
+}
