@@ -3,14 +3,16 @@ import NavBar from '../../NavBar/NavBar';
 import CareFeatures from '../CareFeatures/CareFeatures';
 import Testimonial from '../Testimonial/Testimonial';
 import Welcome from '../Welcome/Welcome';
+import PricingPlan from '../PricingPlan/PricingPlan';
 
 const Home = () => {
     return (
         <div>
-            <NavBar />
-            <Welcome />
-            <CareFeatures />
-            <Testimonial />
+            {/* <NavBar /> */}
+            {/* <Welcome /> */}
+            {/* <CareFeatures /> */}
+            {/* <Testimonial /> */}
+            <PricingPlan />
         </div>
     );
 };

@@ -1,0 +1,80 @@
+[
+    {
+        "category": "Monthly",
+        "sub_category": "Basic",
+        "price": "24",
+        "item": "50",
+        "service": [
+            "SEO Audits",
+            "SEO Management",
+            "SEO Copywriting",
+            "Link Building",
+            "Site Migration"
+        ]
+    },
+    {
+        "category": "Monthly",
+        "sub_category": "Standart",
+        "price": "69",
+        "item": "90",
+        "service": [
+            "SEO Audits",
+            "SEO Management",
+            "SEO Copywriting",
+            "Link Building",
+            "Site Migration"
+        ]
+    },
+    {
+        "category": "Monthly",
+        "sub_category": "Premium ",
+        "price": "89",
+        "item": "90",
+        "service": [
+            "SEO Audits",
+            "SEO Management",
+            "SEO Copywriting",
+            "Link Building",
+            "Site Migration"
+        ]
+    },
+    {
+        "category": "Yearly",
+        "sub_category": "Basic",
+        "price": "89",
+        "item": "50",
+        "service": [
+            "SEO Audits",
+            "SEO Management",
+            "SEO Copywriting",
+            "Link Building",
+            "Site Migration"
+        ]
+    },
+    {
+        "category": "Yearly",
+        "sub_category": "Standart",
+        "price": "299",
+        "item": "90",
+        "service": [
+            "SEO Audits",
+            "SEO Management",
+            "SEO Copywriting",
+            "Link Building",
+            "Site Migration"
+        ]
+    },
+    {
+        "category": "Yearly",
+        "sub_category": "Premium ",
+        "price": "599",
+        "item": "90",
+        "service": [
+            "SEO Audits",
+            "SEO Management",
+            "SEO Copywriting",
+            "Link Building",
+            "Site Migration"
+        ]
+    }
+]

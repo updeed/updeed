@@ -1,5 +1,5 @@
-
 /* slider pagination customize  */
+/* 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
     background: #6254e7 !important;
 }
@@ -11,4 +11,5 @@
 }
 .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
     left: -37% !important;
-}
+} 
+*/

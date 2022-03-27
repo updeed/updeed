@@ -3,13 +3,15 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import './Testimonial.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import { Pagination } from 'swiper';
-import 'swiper/css';
-import 'swiper/css/pagination';
+import 'swiper/swiper-bundle.min.css'
+import 'swiper/swiper.min.css'
 import { Avatar, Typography } from '@mui/material';
+import SwiperCore, { Autoplay } from 'swiper';
 
 const Testimonial = () => {
+
+    SwiperCore.use([Autoplay]);
+
     return (
         <Box
             sx={{
@@ -81,14 +83,13 @@ const Testimonial = () => {
                     <Grid item xs={12} md={7}>
                         <Swiper
                             // install Swiper modules
-                            modules={[Pagination]}
                             spaceBetween={50}
                             slidesPerView={1}
-                            navigation
                             pagination={{ clickable: true }}
-                            scrollbar={{ draggable: true }}
                             onSwiper={(swiper) => console.log(swiper)}
                             onSlideChange={() => console.log('slide change')}
+                            loop={true}
+                            autoplay={true}
                         >
                             <SwiperSlide>
                                 <Box
