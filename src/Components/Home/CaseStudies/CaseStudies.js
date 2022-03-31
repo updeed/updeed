@@ -6,7 +6,7 @@ import Portfolio from '../Portfolio/Portfolio';
 const CaseStudies = () => {
 
     const [portfolio, setPortfolio] = useState([]);
-    const [showPortfolio, setShowPortfolio] = useState('web');
+    const [showPortfolio, setShowPortfolio] = useState('all');
     const filterData = portfolio.filter(data => data.category === showPortfolio);
 
     useEffect(() => {
@@ -41,9 +41,11 @@ const CaseStudies = () => {
                     sx={{
                         borderRadius: 2,
                         mr: 3,
+                        background: `${showPortfolio === 'all' ? '#007aff' : ''}`,
+                        color: `${showPortfolio === 'all' ? '#fff' : '#007aff'}`,
 
                         '&:hover, &:focus': {
-                            background: '#007aff',
+                            background: `${showPortfolio === 'all' ? '#007aff' : '#007aff'}`,
                             color: 'white'
                         }
                     }}

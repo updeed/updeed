@@ -4,7 +4,6 @@ import React, { useState } from 'react';
 
 const Portfolio = ({ portfolio }) => {
 
-    console.log(portfolio);
     const [showItem, setShowItem] = useState(false);
 
     return (
