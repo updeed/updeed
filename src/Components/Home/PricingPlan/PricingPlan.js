@@ -50,29 +50,59 @@ const PricingPlan = () => {
                 <ButtonGroup>
                     <Button variant="contained"
                         onClick={() => setShowPricing('Monthly')}
-                        sx={{
-                            py: 2,
-                            px: 4,
-                            borderRadius: '40px',
-                            background: '#F47A14',
+                        sx={
+                            showPricing === 'Monthly' ?
+                                {
+                                    py: 2,
+                                    px: 4,
+                                    borderRadius: '40px',
+                                    background: '#3B3564',
 
-                            '&:hover': {
-                                background: '#F47A14'
-                            }
-                        }}
+                                    '&:hover': {
+                                        background: '#3B3564'
+                                    }
+                                } :
+                                {
+                                    py: 2,
+                                    px: 4,
+                                    borderRadius: '40px',
+                                    background: '#fff',
+                                    color: '#3B3564',
+
+                                    '&:hover': {
+                                        background: '#3B3564',
+                                        color: '#fff',
+                                    }
+                                }
+                        }
                     >Monthly</Button>
                     <Button variant="contained"
                         onClick={() => setShowPricing('Yearly')}
-                        sx={{
-                            py: 2,
-                            px: 4,
-                            borderRadius: '40px',
-                            background: '#F47A14',
+                        sx={
+                            showPricing === 'Yearly' ?
+                                {
+                                    py: 2,
+                                    px: 4,
+                                    borderRadius: '40px',
+                                    background: '#6557E8',
 
-                            '&:hover': {
-                                background: '#F47A14'
-                            }
-                        }}
+                                    '&:hover': {
+                                        background: '#6557E8'
+                                    }
+                                } :
+                                {
+                                    py: 2,
+                                    px: 4,
+                                    borderRadius: '40px',
+                                    background: '#fff',
+                                    color: '#6557E8',
+
+                                    '&:hover': {
+                                        background: '#6557E8',
+                                        color: '#fff'
+                                    }
+                                }
+                        }
                     >Yearly</Button>
                 </ButtonGroup>
             </Box>
