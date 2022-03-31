@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 
 const Portfolio = ({ portfolio }) => {
 
-    const [showItem, setShowItem] = useState(false);
+    const [showItem, setShowItem] = useState('none');
 
     return (
         <Grid
@@ -12,8 +12,8 @@ const Portfolio = ({ portfolio }) => {
             item xs={6} md={4}
         >
             <Box
-                onMouseOver={() => setShowItem(true)}
-                onMouseOut={() => setShowItem(false)}
+                onMouseOver={() => setShowItem('block')}
+                onMouseOut={() => setShowItem('none')}
                 sx={{
                     height: '370px',
                     backgroundImage: `url(${portfolio.img})`,
@@ -29,42 +29,40 @@ const Portfolio = ({ portfolio }) => {
                     }
                 }}
             >
-                {
-                    showItem && <Box>
-                        <Typography sx={{ pb: 2, color: '#fff', fontFamily: 'Nunito' }} variant="h6">{portfolio?.name}</Typography>
-                        <Button
-                            sx={{
-                                color: 'white',
-                                border: '1px solid white',
-                                background: '',
-                                fontSize: '10px',
-                                px: 2,
-                                py: 1,
-                                mr: 2,
+                <Box sx={{ display: `${showItem}` }}>
+                    <Typography sx={{ pb: 2, color: '#fff', fontFamily: 'Nunito' }} variant="h6">{portfolio?.name}</Typography>
+                    <Button
+                        sx={{
+                            color: 'white',
+                            border: '1px solid white',
+                            background: '',
+                            fontSize: '10px',
+                            px: 2,
+                            py: 1,
+                            mr: 2,
 
-                                '&:hover': {
-                                    color: 'black',
-                                    background: 'white',
-                                }
-                            }}
-                        >Preview</Button>
-                        <Button
-                            sx={{
+                            '&:hover': {
                                 color: 'black',
                                 background: 'white',
-                                fontSize: '10px',
-                                px: 2,
-                                py: 1,
+                            }
+                        }}
+                    >Preview</Button>
+                    <Button
+                        sx={{
+                            color: 'black',
+                            background: 'white',
+                            fontSize: '10px',
+                            px: 2,
+                            py: 1,
 
-                                '&:hover': {
-                                    color: 'black',
-                                    background: 'white',
-                                }
-                            }}
-                        >
-                            Details</Button>
-                    </Box>
-                }
+                            '&:hover': {
+                                color: 'black',
+                                background: 'white',
+                            }
+                        }}
+                    >
+                        Details</Button>
+                </Box>
             </Box>
         </Grid>
     );
