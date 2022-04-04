@@ -22,10 +22,7 @@ const CareFeatures = () => {
                 }}
             >
                 <Box
-                    sx={{
-                        textAlign: 'center',
-                        fontSize: '20px'
-                    }}
+                    sx={{ textAlign: 'center', fontSize: '20px' }}
                 >
                     <Typography
                         sx={{

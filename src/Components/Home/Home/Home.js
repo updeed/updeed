@@ -6,6 +6,9 @@ import Welcome from '../Welcome/Welcome';
 import PricingPlan from '../PricingPlan/PricingPlan';
 import CaseStudies from '../CaseStudies/CaseStudies';
 import HeadOffice from '../HeadOffice/HeadOffice';
+import SEOanalysis from '../SEO-Analysis/SEOanalysis';
+import WhatWeOffer from '../WhatWeOffer/WhatWeOffer';
+import WhyChooseUs from '../Why-choose-us/WhyChooseUs';
 
 const Home = () => {
     return (
@@ -16,6 +19,9 @@ const Home = () => {
             <Testimonial />
             <PricingPlan />
             <CaseStudies />
+            <WhyChooseUs />
+            <WhatWeOffer />
+            <SEOanalysis />
             <HeadOffice />
         </div>
     );
