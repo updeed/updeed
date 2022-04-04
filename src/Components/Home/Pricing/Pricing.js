@@ -65,7 +65,7 @@ const Pricing = ({ pricing }) => {
                                 {
                                     display: 'flex',
                                     justifyContent: 'center',
-                                    color: '#F47A14',
+                                    color: '#03ef62',
                                     pt: 1
                                 }
                     }
@@ -127,15 +127,15 @@ const Pricing = ({ pricing }) => {
                                         }
                                     } :
                                     {
-                                        background: '#F47A14',
-                                        border: '1px solid #F47A14',
+                                        background: '#03ef62',
+                                        border: '1px solid #03ef62',
                                         py: 2,
                                         px: 3,
 
                                         '&:hover': {
                                             background: 'white',
-                                            color: '#F47A14',
-                                            border: '1px solid #F47A14',
+                                            color: '#03ef62',
+                                            border: '1px solid #03ef62',
                                             boxShadow: 'none'
                                         }
                                     }

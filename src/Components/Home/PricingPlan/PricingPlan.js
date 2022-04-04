@@ -32,16 +32,12 @@ const PricingPlan = () => {
                 }}
             >
                 <Typography variant='p'
-                    sx={{
-                        fontSize: '14px'
-                    }}
+                    sx={{ fontSize: '14px', fontWeight: 300, fontFamily: 'Rubik' }}
                 >
                     PRICING PLANS
                 </Typography>
                 <Typography variant='h2'
-                    sx={{
-                        fontSize: '30px'
-                    }}
+                    sx={{ fontSize: '34px', fontFamily: 'Rubik', fontWeight: 400, maxWidth: '400px', margin: '0 auto' }}
                 >
                     The Best Solutions for Our Clients
                 </Typography>
