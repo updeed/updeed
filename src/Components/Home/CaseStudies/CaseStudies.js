@@ -26,12 +26,12 @@ const CaseStudies = () => {
         }}>
             <Box sx={{ textAlign: 'center', }} >
                 <Typography variant='p'
-                    sx={{ fontSize: '14px' }}
+                    sx={{ fontSize: '14px', fontWeight: 300, fontFamily: 'Rubik' }}
                 >
                     PREVIOUS PROJECTS
                 </Typography>
                 <Typography variant='h2'
-                    sx={{ fontSize: '30px' }}
+                    sx={{ fontSize: '34px', fontFamily: 'Rubik', fontWeight: 400 }}
                 >
                     Our Case Studies
                 </Typography>
@@ -39,46 +39,49 @@ const CaseStudies = () => {
             <Box sx={{ textAlign: 'center', py: 4 }}>
                 <Button onClick={() => setShowPortfolio('all')}
                     sx={{
-                        borderRadius: 2,
+                        borderRadius: 1,
                         mr: 3,
-                        background: `${showPortfolio === 'all' ? '#007aff' : ''}`,
-                        color: `${showPortfolio === 'all' ? '#fff' : '#007aff'}`,
+                        background: `${showPortfolio === 'all' ? '#03ef62' : ''}`,
+                        color: `${showPortfolio === 'all' ? '#fff' : '#03ef62'}`,
 
                         '&:hover, &:focus': {
-                            background: `${showPortfolio === 'all' ? '#007aff' : '#007aff'}`,
+                            background: `${showPortfolio === 'all' ? '#03ef62' : '#03ef62'}`,
                             color: 'white'
                         }
                     }}
                 >All</Button>
                 <Button onClick={() => setShowPortfolio('web')}
                     sx={{
-                        borderRadius: 2,
+                        borderRadius: 1,
                         mr: 3,
+                        color: '#03ef62',
 
                         '&:hover, &:focus': {
-                            background: '#007aff',
+                            background: '#03ef62',
                             color: 'white'
                         }
                     }}
                 >Web</Button>
                 <Button onClick={() => setShowPortfolio('seo')}
                     sx={{
-                        borderRadius: 2,
+                        borderRadius: 1,
                         mr: 3,
+                        color: '#03ef62',
 
                         '&:hover, &:focus': {
-                            background: '#007aff',
+                            background: '#03ef62',
                             color: 'white'
                         }
                     }}
                 >Seo</Button>
                 <Button onClick={() => setShowPortfolio('marketing')}
                     sx={{
-                        borderRadius: 2,
+                        borderRadius: 1,
                         mr: 3,
+                        color: '#03ef62',
 
                         '&:hover, &:focus': {
-                            background: '#007aff',
+                            background: '#03ef62',
                             color: 'white'
                         }
                     }}
@@ -94,7 +97,7 @@ const CaseStudies = () => {
                     }
                 </Grid>
             </Box>
-        </Box>
+        </Box >
     );
 };
 
