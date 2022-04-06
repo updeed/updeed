@@ -1,0 +1,15 @@
+/* slider pagination customize  */
+/* 
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    background: #6254e7 !important;
+}
+.swiper-pagination-bullet-active {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+    border-radius: 12px !important;
+    background: #6254e7 !important;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    left: -37% !important;
+} 
+*/
