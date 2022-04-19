@@ -91,9 +91,13 @@ const CaseStudies = () => {
                 <Grid container spacing={3} >
                     {
                         showPortfolio === 'all' ?
-                            portfolio?.map(portfolio => <Portfolio portfolio={portfolio} />)
+                            portfolio?.map(portfolio => <Portfolio 
+                                key={portfolio.id}
+                                portfolio={portfolio} />)
                             :
-                            filterData?.map(portfolio => <Portfolio portfolio={portfolio} />)
+                            filterData?.map(portfolio => <Portfolio
+                                key={portfolio.id}
+                                portfolio={portfolio} />)
                     }
                 </Grid>
             </Box>

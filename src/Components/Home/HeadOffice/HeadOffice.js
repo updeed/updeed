@@ -36,11 +36,11 @@ const HeadOffice = () => {
                 >
                     <Typography sx={{ fontFamily: "Nunito" }} variant='h5'>Head Office</Typography>
                     <Box sx={{ display: 'flex', fontSize: '18px', mt: 2, fontFamily: "Nunito" }}>
-                        <Typography sx={{ mr: 2 }} variant='span'><i class="fa-solid fa-location-dot"></i></Typography>
+                        <Typography sx={{ mr: 2 }} variant='span'><i className="fa-solid fa-location-dot"></i></Typography>
                         <Typography variant='p'>Lorem ipsum, dolor sit amet consectetur adipisicing.</Typography>
                     </Box>
                     <Box sx={{ display: 'flex', fontSize: '18px', mt: 2, fontFamily: "Nunito" }}>
-                        <Typography sx={{ mr: 2 }} variant='span'><i class="fa-solid fa-envelope"></i></Typography>
+                        <Typography sx={{ mr: 2 }} variant='span'><i className="fa-solid fa-envelope"></i></Typography>
                         <Typography variant='p'>0123456789 example@gmail.com</Typography>
                     </Box>
                 </Box>

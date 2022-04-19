@@ -2,6 +2,7 @@ import { Box, Button, Grid, Typography } from '@mui/material';
 import React, { useState } from 'react';
 
 const Pricing = ({ pricing }) => {
+    // console.log({pricing})
 
     const [standard] = useState(`${pricing?.category}${pricing?.sub_category}`)
     // console.log(standard);
@@ -83,13 +84,14 @@ const Pricing = ({ pricing }) => {
                 <Box sx={{ pt: 4 }}>
                     {
                         pricing?.service.map(item => <Typography
+                            key={item.id}
                             sx={{
                                 display: 'block',
                                 fontSize: '18px',
                                 fontFamily: 'Rubik',
                                 mb: '13px'
                             }} variant='p'>
-                            {item}
+                            {item.name}
                         </Typography>)
                     }
                 </Box>

@@ -81,7 +81,7 @@ const PricingPlan = () => {
                 {
                     showPricing === 'Monthly' && <Grid container sx={{ alignItems: 'center' }}>
                         {
-                            monthly?.map(pricing => <Pricing key={pricing?._id} pricing={pricing} />)
+                            monthly?.map(pricing => <Pricing key={pricing?.id} pricing={pricing} />)
                         }
                     </Grid>
 
@@ -89,7 +89,7 @@ const PricingPlan = () => {
                 {
                     showPricing === 'Yearly' && <Grid container sx={{ alignItems: 'center' }}>
                         {
-                            yearly?.map(pricing => <Pricing key={pricing?._id} pricing={pricing} />)
+                            yearly?.map(pricing => <Pricing key={pricing?.id} pricing={pricing} />)
                         }
                     </Grid>
                 }

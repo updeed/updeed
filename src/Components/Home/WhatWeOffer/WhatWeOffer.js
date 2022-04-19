@@ -53,7 +53,7 @@ const WhatWeOffer = () => {
                 }}
             >
                 {weOffers.map((offer) => (
-                    <Grid item xs={12} md={4}>
+                    <Grid key={offer.id} item xs={12} md={4}>
                         <Box>
                             <Card
                                 sx={{

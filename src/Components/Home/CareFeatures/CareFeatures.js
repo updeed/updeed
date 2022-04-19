@@ -103,7 +103,7 @@ const CareFeatures = () => {
                                 background: '#252A3F',
                                 mb: 3
                             }}>
-                                <hr />
+                                {/* <hr /> */}
                             </Typography>
                             <Typography
                                 sx={{
@@ -163,7 +163,7 @@ const CareFeatures = () => {
                                 background: '#252A3F',
                                 mb: 3
                             }}>
-                                <hr />
+                                {/* <hr /> */}
                             </Typography>
                             <Typography
                                 sx={{
@@ -223,7 +223,7 @@ const CareFeatures = () => {
                                 background: '#252A3F',
                                 mb: 3
                             }}>
-                                <hr />
+                                {/* <hr /> */}
                             </Typography>
                             <Typography
                                 sx={{
@@ -283,7 +283,7 @@ const CareFeatures = () => {
                                 background: '#252A3F',
                                 mb: 3
                             }}>
-                                <hr />
+                                {/* <hr /> */}
                             </Typography>
                             <Typography
                                 sx={{

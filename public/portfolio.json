@@ -2,31 +2,37 @@
     {
         "name": "Demo name",
         "category": "web",
-        "img": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/07/Mannix-Marketing-670x670.jpg"
+        "img": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/07/Mannix-Marketing-670x670.jpg",
+        "id":"1"
     },
     {
         "name": "Demo name",
         "category": "seo",
-        "img": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/07/Online-Media-Management-670x670.jpg"
+        "img": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/07/Online-Media-Management-670x670.jpg",
+        "id":"2"
     },
     {
         "name": "Demo name",
         "category": "marketing",
-        "img": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/07/Twice-Profit-Than-Before-670x670.jpg"
+        "img": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/07/Twice-Profit-Than-Before-670x670.jpg",
+        "id":"3"
     },
     {
         "name": "Demo name",
         "category": "web",
-        "img": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/07/SEO-Optimization-670x670.jpg"
+        "img": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/07/SEO-Optimization-670x670.jpg",
+        "id":"4"
     },
     {
         "name": "Demo name",
         "category": "seo",
-        "img": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/07/Social-Engagement-670x670.jpg"
+        "img": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/07/Social-Engagement-670x670.jpg",
+        "id":"5"
     },
     {
         "name": "Demo name",
         "category": "marketing",
-        "img": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/07/Technical-SEO-670x670.jpg"
+        "img": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2019/07/Technical-SEO-670x670.jpg",
+        "id":"6"
     }
 ]

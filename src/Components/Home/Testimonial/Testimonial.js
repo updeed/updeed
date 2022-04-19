@@ -86,8 +86,8 @@ const Testimonial = () => {
                             spaceBetween={50}
                             slidesPerView={1}
                             pagination={{ clickable: true }}
-                            onSwiper={(swiper) => console.log(swiper)}
-                            onSlideChange={() => console.log('slide change')}
+                            // onSwiper={(swiper) => console.log(swiper)}
+                            // onSlideChange={() => console.log('slide change')}
                             loop={true}
                             autoplay={true}
                         >
@@ -284,7 +284,7 @@ const Testimonial = () => {
                                                         fontWeight: '700'
                                                     }}
                                                 >
-                                                    Denis Robinson
+                                                    Joshua Philip
                                                 </Typography>
                                                 <Typography
                                                     variant='h5'
@@ -390,7 +390,7 @@ const Testimonial = () => {
                                                         fontWeight: '700'
                                                     }}
                                                 >
-                                                    Denis Robinson
+                                                    Brent Wood
                                                 </Typography>
                                                 <Typography
                                                     variant='h5'

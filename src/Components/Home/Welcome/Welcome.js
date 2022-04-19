@@ -161,7 +161,7 @@ const Welcome = () => {
                                 }
                             }}
                         >
-                            <i class="fa-solid fa-play"></i>
+                            <i className="fa-solid fa-play"></i>
                         </Button>
                         <Typography
                             variant='p'
