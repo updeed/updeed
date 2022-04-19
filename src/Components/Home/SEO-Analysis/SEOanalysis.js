@@ -4,7 +4,7 @@ import { styled } from "@mui/material/styles";
 import TextField from "@mui/material/TextField";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
-import { CardMedia, Typography } from "@mui/material";
+import { Button, CardMedia, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
@@ -167,7 +167,30 @@ const SEOanalysis = () => {
                                 {errors.message && "*message is required"}
                             </p>
                             <div>
-                                <input type="submit" value="Send Message" />
+                                {/* <input  type="submit" value="Send Message" /> */}
+                                {/* cant add style to input submit , so using button */}
+                                <Button type="submit"
+                        sx={{
+                            py: 2,
+                            px: 3,
+                            mr: 2,
+                            fontSize: '12px',
+                            fontWeight: '500',
+                            fontFamily: 'Rubik',
+                            border: '1px solid #03ef62',
+                            // backgroundImage: 'linear-gradient(#03ef62, #1bb41d)',
+                            backgroundImage: 'linear-gradient(96deg, #03ef62 0%, #1bb41d 100%)',
+                            color: '#fff',
+
+
+                            '&:hover': {
+                                background: '#03ef62',
+                                color: '#fff',
+                            }
+                        }}
+                    >
+                        Contact Today
+                    </Button>
                             </div>
                         </form>
                     </Item>

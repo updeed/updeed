@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 const Pricing = ({ pricing }) => {
 
     const [standard] = useState(`${pricing?.category}${pricing?.sub_category}`)
-    console.log(standard);
+    // console.log(standard);
     return (
         <Grid item xs={12} md={4}
             sx={
