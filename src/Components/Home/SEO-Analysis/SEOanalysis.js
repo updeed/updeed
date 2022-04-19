@@ -156,12 +156,13 @@ const SEOanalysis = () => {
                                 </Grid>
                             </Grid>
                             <textarea
+                                style={{border:'1px solid lightgray',borderRadius:'5px',padding:'3px',fontFamily:'cursive'}}
                                 sx={{ width: "100%" }}
                                 {...register("message", { required: true })}
                                 cols="65"
                                 rows="10"
                                 placeholder="Write Message"
-                                type="text"
+                                type="textarea"
                             ></textarea>
                             <p style={{ textAlign: "left", color: "red", margin: "0px 0px" }}>
                                 {errors.message && "*message is required"}
