@@ -7,7 +7,7 @@ const WhatWeDo = () => {
     return (
         <div>
             <Container>
-            <div className='text-center mb-5'>
+            <div style={{paddingBottom:'50px'}} className='text-center'>
                 <p style={{fontFamily:'cursive'}}>WHAT WE DO</p>
                 <h2>Fresh Ideas for Every Business</h2>
             </div>
