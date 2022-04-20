@@ -2,8 +2,8 @@ import React from 'react';
 
 const WhyChooseUsLeft = () => {
     return (
-        <div>
-            <img className='w-100' src="https://i.ibb.co/XyBvwvg/home-img-03.png" alt="working two man" />
+        <div style={{paddingTop:'100px'}}>
+            <img className='w-100' src="https://i.ibb.co/WWjW9rP/flat-time-management-concept-illustration-52683-55533-removebg-preview.png" alt="working two man" />
         </div>
     );
 };
