@@ -3,13 +3,13 @@
       "name": "John Doe",
       "position": "Managing Director",
       "img": "https://i.ibb.co/12gp7Gp/Victor-Liuw-530x651.jpg",
-      "id": "4"
+      "id": "1"
     },
     {
       "name": "John Doe",
       "position": "Managing Director",
       "img": "https://i.ibb.co/12gp7Gp/Victor-Liuw-530x651.jpg",
-      "id": "1"
+      "id": "2"
     },
     {
       "name": "John Doe",
@@ -21,6 +21,30 @@
       "name": "John Doe",
       "position": "Managing Director",
       "img": "https://i.ibb.co/12gp7Gp/Victor-Liuw-530x651.jpg",
-      "id": "2"
+      "id": "4"
+    },
+    {
+      "name": "John Doe",
+      "position": "Managing Director",
+      "img": "https://i.ibb.co/12gp7Gp/Victor-Liuw-530x651.jpg",
+      "id": "5"
+    },
+    {
+      "name": "John Doe",
+      "position": "Managing Director",
+      "img": "https://i.ibb.co/12gp7Gp/Victor-Liuw-530x651.jpg",
+      "id": "6"
+    },
+    {
+      "name": "John Doe",
+      "position": "Managing Director",
+      "img": "https://i.ibb.co/12gp7Gp/Victor-Liuw-530x651.jpg",
+      "id": "7"
+    },
+    {
+      "name": "John Doe",
+      "position": "Managing Director",
+      "img": "https://i.ibb.co/12gp7Gp/Victor-Liuw-530x651.jpg",
+      "id": "8"
     }
   ]

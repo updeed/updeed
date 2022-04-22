@@ -8,7 +8,7 @@ const Team = () => {
     useEffect(()=>{
         fetch('./teamMembers.json')
         .then(res => res.json())
-        .then(data => setMembers(data))
+        .then(data => setMembers(data.splice(0,4)))
     },[])
     return (
         <div style={{padding:'100px 0px'}}>
