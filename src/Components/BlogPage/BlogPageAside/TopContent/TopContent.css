@@ -1,0 +1,34 @@
+.user{
+   height: 250px;
+   width: 250px;
+    border-radius: 50%;
+}
+
+.icons{
+    text-align: center;
+}
+
+.icon{
+    margin-right: 10px;
+    color: lightgray;
+}
+
+.facebook:hover{
+    color: blue;
+}
+
+.github:hover{
+    color: black;
+}
+
+.twitter:hover{
+    color: lightblue;
+}
+
+.linkedin:hover{
+    color: rgba(85, 85, 234, 0.838);
+}
+
+.pinterest:hover{
+    color: red;
+}

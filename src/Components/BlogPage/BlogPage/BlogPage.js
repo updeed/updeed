@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from '../../NavBar/NavBar';
+import BlogPageBlogs from '../BlogPageBlogs/BlogPageBlogs';
 import BlogPageHero from '../BlogPageHero/BlogPageHero';
 
 const BlogPage = () => {
@@ -7,6 +8,7 @@ const BlogPage = () => {
         <div>
             <BlogPageHero/>
             <NavBar/>
+            <BlogPageBlogs/>
         </div>
     );
 };

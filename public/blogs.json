@@ -1,20 +1,26 @@
 [
     {
       "title": "How to Increase Your ROI Through Scientific SEM?",
-      "time": "2 April, 2021",
+      "time": "April 02, 2021",
       "id": "1",
-      "img": "https://i.ibb.co/HtJWftD/girl-thinking-how-manage-time-better-making-plans-grocery-list-mind-look-up-thoughtful-touch-jawline.png"
+      "img": "https://i.ibb.co/HtJWftD/girl-thinking-how-manage-time-better-making-plans-grocery-list-mind-look-up-thoughtful-touch-jawline.png" ,
+      "user":"John",
+      "comment":"2"
     },
     {
       "title": "Simple Ways to Optimize Your Website for Seo",
-      "time": "17 June, 2020",
+      "time": "June 17, 2020",
       "id": "2",
-      "img": "https://i.ibb.co/HtJWftD/girl-thinking-how-manage-time-better-making-plans-grocery-list-mind-look-up-thoughtful-touch-jawline.png"
+      "img": "https://i.ibb.co/qxNVHQC/pensive-afro-american-female-bloger-records-tutorial-video-how-washing-correctly-sits-table-with-ope.webp",
+      "user":"Brad",
+      "comment":"3"
     },
     {
       "title": "The Basics of Blogging Search Optimization",
-      "time": "20 Nov, 2021",
+      "time": "Nov 20, 2021",
       "id": "3",
-      "img": "https://i.ibb.co/HtJWftD/girl-thinking-how-manage-time-better-making-plans-grocery-list-mind-look-up-thoughtful-touch-jawline.png"
+      "img": "https://i.ibb.co/f8stxcp/thoughtful-creative-young-modern-woman-thinking-how-waste-money-scratch-cheek-with-credit-card-open.webp",
+      "user":"Peter",
+      "comment":"1"
     }
   ]

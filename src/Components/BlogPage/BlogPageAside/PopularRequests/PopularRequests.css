@@ -1,0 +1,12 @@
+.custom-hover{
+    background-color: rgb(225, 214, 214);
+    margin-right: 20px;
+    padding: 5px 12px;
+    border-radius: 5px;
+}
+
+.custom-hover:hover{
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
