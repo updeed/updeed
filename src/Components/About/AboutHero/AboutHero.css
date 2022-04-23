@@ -1,5 +1,5 @@
 .about-hero{
-    background-image: url(https://i.ibb.co/KwpHBgD/young-person-during-intership-23-2149315579.png);
+    background-image: url(https://i.ibb.co/2MnQR3G/young-person-during-intership-23-2149315579.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
@@ -20,6 +20,10 @@
         justify-content: space-around;
         align-items: center;
     }
+
+    .about-hero-service{
+        width: 30%;
+     }
 }
 
 /* .services-about-hero{
@@ -27,6 +31,6 @@
 } */
 
 .about-hero-service{
-    margin: 0 auto;
+   width: 100%;
 }
 

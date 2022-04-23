@@ -10,11 +10,11 @@ const AboutHero = () => {
         
                 <div style={{paddingTop:'15%'}} className='text-center'>
                         <h2 className='text-white custom-title'>About Us</h2>
-                        <NavLink to="/home">Home</NavLink>
+                        <NavLink style={{textDecoration:'none' , color:'white'}} to="/home">Home</NavLink>
                 </div>
                 </div>
             <Container className='services-about-hero'>
-                    <div style={{backgroundColor:'rgba(241, 231, 254)',width:'30%'}} className='card about-hero-service  p-2 rounded'>
+                    <div style={{backgroundColor:'rgba(241, 231, 254)'}} className='card about-hero-service  p-2 rounded'>
                         <div className="text-center my-3">
                             <img style={{width:'150px'}} src="https://i.ibb.co/swsmpvL/seo.png" alt="seo analysis" />
                         </div>
@@ -25,7 +25,7 @@ const AboutHero = () => {
                     </div>
 
 
-                        <div style={{backgroundColor:'rgba(253, 227, 167)', width:'30%'}} className='card about-hero-service   p-2 rounded'>
+                        <div style={{backgroundColor:'rgba(253, 227, 167)'}} className='card about-hero-service   p-2 rounded'>
                             <div  className="text-center my-3">
                             <img style={{width:'150px'}} src="https://i.ibb.co/1njdG8R/analysis.png" alt="computer analysis" />
                             </div>
@@ -36,7 +36,7 @@ const AboutHero = () => {
                         </div>
 
 
-                    <div style={{backgroundColor:'rgba(200, 247, 197)',width:'30%'}} className='card about-hero-service p-2 rounded'>
+                    <div style={{backgroundColor:'rgba(200, 247, 197)'}} className='card about-hero-service p-2 rounded'>
                         <div className="text-center my-3">
                         <img style={{width:'205px'}} src="https://i.ibb.co/y6VJ4kR/marketing.png" alt="seo analysis" />
                         </div>

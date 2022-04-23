@@ -8,7 +8,9 @@ const Blog = props => {
     return (
         <Col  >
         <Card >
-        <img className='w-100 custom-image' src={img} alt="" />
+            <div className="image-box">
+            <img className='w-100 custom-image' src={img} alt="one single blog" />
+            </div>
         <div className='p-3'>
         <p className='mt-3 '>{time}</p>
             <h5 className='title' >{title}</h5>

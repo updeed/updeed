@@ -1,8 +1,13 @@
-/* .custom-image:hover{
-    width: 100%;
-    transform: scale(1.5);
-    transition: 1.5s;
-} */
+.image-box{
+    overflow: hidden;
+}
+.custom-image{
+    transition: transform 1.5s ease;
+}
+
+.custom-image:hover{
+    transform: scale(1.2);
+}
 
 /* tried to zoom the image on hover but it is taking more than 100% width */
 

@@ -5,7 +5,7 @@ import TeamExperienceRight from '../TeamExperienceRight/TeamExperienceRight';
 
 const TeamExperience = () => {
     return (
-        <div>
+        <div style={{padding:'100px 0px'}}>
             <Container>
                 <Row xs={1} md={2}>
                     <TeamExperienceLeft/>
