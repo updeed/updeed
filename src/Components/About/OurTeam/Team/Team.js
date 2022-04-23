@@ -15,8 +15,8 @@ const Team = () => {
              <Container>
                  <div style={{display:'flex',alignItems:'center', justifyContent:'space-between'}}>
                      <div>
-                     <p style={{fontFamily:'cursive'}}>OUR TEAM</p>
-                        <h2>Our Professionals</h2>
+                     <p className='custom-title1'>OUR TEAM</p>
+                        <h2 className='custom-title2'>Our Professionals</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p> <p>Facere nihil laborum ad quod at earum.</p>
                      </div>
                      <Button

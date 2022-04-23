@@ -14,8 +14,8 @@ const TeamSection = () => {
         <div>
             <Container>
                 <div className="text-center">
-                <p style={{fontFamily:'cursive'}}>OUR TEAM</p>
-                <h2>OUR PROFESSIONALS</h2>
+                <p className='custom-title1'>OUR TEAM</p>
+                <h2 className='custom-title2'>OUR PROFESSIONALS</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic qui libero facilis eaque. Reprehenderit, accusantium?</p>
                 </div>
             <Row style={{paddingTop:'50px'}} xs={1} md={4} className="g-4">

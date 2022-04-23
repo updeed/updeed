@@ -4,8 +4,8 @@ import React from 'react';
 const AboutUsLeft = () => {
     return (
         <div >
-            <p style={{fontFamily:'cursive'}}>ABOUT US</p>
-            <h2>Boosts Your Website Traffic!</h2>
+            <p className='custom-title1'>ABOUT US</p>
+            <h2 className='custom-title2'>Boosts Your Website Traffic!</h2>
             <p style={{fontSize:'18px'}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, eaque.</p>
             <p style={{fontSize:'18px'}}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id eaque reprehenderit tempore excepturi corrupti tenetur eum nostrum voluptatem atque dignissimos nobis facilis, voluptates alias obcaecati.</p>
             <Button

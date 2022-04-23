@@ -9,8 +9,8 @@ const WorkProcess = () => {
 
 
             <div style={{marginBottom:'100px'}}>
-            <p style={{fontFamily:'cursive'}}>WORK PROCESS</p>
-            <h2>This is How We Streamline <br />
+            <p className='custom-title1'>WORK PROCESS</p>
+            <h2 className='custom-title2'>This is How We Streamline <br />
             Our Design Workflow</h2>
             </div>
 

@@ -8,8 +8,8 @@ const WhatWeDo = () => {
         <div>
             <Container>
             <div style={{paddingBottom:'50px'}} className='text-center'>
-                <p style={{fontFamily:'cursive'}}>WHAT WE DO</p>
-                <h2>Fresh Ideas for Every Business</h2>
+                <p className='custom-title1'>WHAT WE DO</p>
+                <h2 className='custom-title2'>Fresh Ideas for Every Business</h2>
             </div>
             <Row xs={1} md={2} className="g-4">
                 <Col>

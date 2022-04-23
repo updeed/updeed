@@ -8,8 +8,8 @@ const WhyChooseUs = () => {
         <div>
             <Container>
                 <div style={{paddingBottom:'50px'}} className="text-center">
-                <p style={{fontFamily:'cursive'}}>WHY CHOOSE US</p>
-                <h2>Save Time & Effort With Updeed</h2>
+                <p className='custom-title1'>WHY CHOOSE US</p>
+                <h2 className='custom-title2'>Save Time & Effort With Updeed</h2>
                 </div>
                 <Row xs={1} md={2} className="g-4">
                     <Col>

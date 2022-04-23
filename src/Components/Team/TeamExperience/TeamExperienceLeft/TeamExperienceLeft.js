@@ -5,8 +5,8 @@ import { ProgressBar } from 'react-bootstrap';
 const TeamExperienceLeft = () => {
     return (
         <div>
-            <p style={{fontFamily:'cursive'}}>EXPERIENCE</p>
-            <h2>Skilled Team of Creators</h2>
+            <p className='custom-title1'>EXPERIENCE</p>
+            <h2 className='custom-title2'>Skilled Team of Creators</h2>
             <p>Ewebot stays ahead of the curve with digital marketing trends. Our success has us leading the pack amongst our competitors with our ability to anticipate.</p>
 
         {/* for progrees bar   */}

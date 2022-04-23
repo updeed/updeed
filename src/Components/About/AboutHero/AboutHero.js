@@ -9,7 +9,7 @@ const AboutHero = () => {
         <div className='about-hero'>
         
                 <div style={{paddingTop:'15%'}} className='text-center'>
-                        <h2 className='text-white'>About Us</h2>
+                        <h2 className='text-white custom-title'>About Us</h2>
                         <NavLink to="/home">Home</NavLink>
                 </div>
                 </div>

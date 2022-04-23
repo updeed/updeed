@@ -13,8 +13,8 @@ const Blogs = () => {
         <div style={{padding:'100px 0px'}}>
             <Container>
                 <div style={{paddingBottom:'75px'}} className="text-center">
-                <p style={{fontFamily:'cursive'}}>BLOGS</p>
-            <h2>Read Our Lates News</h2>
+                <p className='custom-title1'>BLOGS</p>
+            <h2 className='custom-title2'>Read Our Lates News</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt <br /> repudiandae excepturi illum corrupti reprehenderit autem?</p>
                 </div>
 

@@ -9,7 +9,7 @@ import WhyChooseUs from '../WhyChooseUs/WhyChooseUs/WhyChooseUs';
 const About = () => {
     return (
         <div>
-            {/* <NavBar/> */}
+            <NavBar/>
             <AboutHero/>
            <AboutUs/> 
            <WhatWeDo/>
