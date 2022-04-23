@@ -1,0 +1,12 @@
+/* .custom-image:hover{
+    width: 100%;
+    transform: scale(1.5);
+    transition: 1.5s;
+} */
+
+/* tried to zoom the image on hover but it is taking more than 100% width */
+
+.title:hover{
+    color: purple;
+    transition: .5s;
+}
