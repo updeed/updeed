@@ -4,3 +4,13 @@
     background-size: cover;
     height: 100vh;
 }
+
+.blog-text{
+    padding-top: 15%;
+}
+
+@media screen and (max-width: 600px) {
+    .blog-text{
+        padding-top: 40%;
+    }
+  }

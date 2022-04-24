@@ -8,7 +8,7 @@ const AboutHero = () => {
     <div style={{marginBottom:'100px'}}>
         <div className='about-hero'>
         
-                <div style={{paddingTop:'15%'}} className='text-center'>
+                <div  className='text-center blog-text'>
                         <h2 className='text-white custom-title'>About Us</h2>
                         <NavLink style={{textDecoration:'none' , color:'white'}} to="/home">Home</NavLink>
                 </div>
