@@ -21,7 +21,7 @@ const TouchRight = () => {
                 placeholder='Message*'
                 required
                 id="message" 
-                cols="50" 
+                cols="30" 
                 rows="05"
                 >
                 </textarea>
