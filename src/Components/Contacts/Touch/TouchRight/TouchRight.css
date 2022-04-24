@@ -1,0 +1,11 @@
+.input{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.textarea{
+    border:none;
+    border-bottom: 1px solid gray;
+}
