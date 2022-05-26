@@ -123,14 +123,18 @@ const Welcome = () => {
                             py: 2,
                             px: 3,
                             mr: 2,
-                            color: 'white',
                             fontSize: '12px',
                             fontWeight: '500',
                             fontFamily: 'Rubik',
-                            backgroundImage: 'linear-gradient(96deg, #6254e7 0%, #9289f1 100%)',
+                            border: '1px solid #03ef62',
+                            // backgroundImage: 'linear-gradient(#03ef62, #1bb41d)',
+                            backgroundImage: 'linear-gradient(96deg, #03ef62 0%, #1bb41d 100%)',
+                            color: '#fff',
+
 
                             '&:hover': {
-                                backgroundImage: 'linear-gradient(96deg,#9289f1  0%, #6254e7 100%)',
+                                background: '#03ef62',
+                                color: '#fff',
                             }
                         }}
                     >
@@ -147,12 +151,13 @@ const Welcome = () => {
                                 height: '50px',
                                 borderRadius: '50%',
                                 minWidth: '50px',
-                                backgroundImage: 'linear-gradient(90deg, #f0ac0e 0%, #f56616 100%)',
-                                color: '#ffff',
+                                color: '#fff',
+                                background: '#03ef62',
                                 mr: 1,
 
                                 '&:hover': {
-                                    background: '#6254e7',
+                                    background: '#03ef62 ',
+                                    color: '#fff',
                                 }
                             }}
                         >
@@ -160,7 +165,7 @@ const Welcome = () => {
                         </Button>
                         <Typography
                             variant='p'
-                            color='#f47514'
+                            color='#03ef62'
                             sx={{
                                 fontSize: '12px',
                                 fontWeight: '500',
@@ -218,7 +223,7 @@ const Welcome = () => {
                     }
                 }}
             >
-                <img src="https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2020/03/element_01.png" alt="" />
+                {/* <img src="https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2020/03/element_01.png" alt="" /> */}
             </Box>
         </Box>
     );

@@ -1,0 +1,32 @@
+[
+    {
+        "image": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2021/01/home10_service1-active.png",
+        "name": "SEO",
+        "desc": "Maecenas elementum sapien in metus placerat finibus. Lorem ipsum dolor sit amet, vix an. "
+    },
+    {
+        "image": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2021/01/home10_service2-active.png",
+        "name": "development",
+        "desc": "Maecenas elementum sapien in metus placerat finibus. Lorem ipsum dolor sit amet, vix an. "
+    },
+    {
+        "image": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2021/01/home10_service3-active.png",
+        "name": "Web design",
+        "desc": "Maecenas elementum sapien in metus placerat finibus. Lorem ipsum dolor sit amet, vix an. "
+    },
+    {
+        "image": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2021/01/home10_service4-active.png",
+        "name": "CMS",
+        "desc": "Maecenas elementum sapien in metus placerat finibus. Lorem ipsum dolor sit amet, vix an. "
+    },
+    {
+        "image": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2021/01/home10_service5-active.png",
+        "name": "Maintenance",
+        "desc": "Maecenas elementum sapien in metus placerat finibus. Lorem ipsum dolor sit amet, vix an. "
+    },
+    {
+        "image": "https://livewp.site/wp/md/ewebot/wp-content/uploads/sites/64/2021/01/home10_service6-active.png",
+        "name": "Hosting",
+        "desc": "Maecenas elementum sapien in metus placerat finibus. Lorem ipsum dolor sit amet, vix an. "
+    }
+]
